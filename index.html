@@ -1,33 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>NFT Preview Card Component</title>
+    </style>
+  </head>
+  <body>
+   <div class="container">
+    <div class="card">
+      <div class="image">
+        <div class="preview">
+          <img class="image-preview" src="./images/icon-view.svg" alt="">
+        </div>
+      </div>
+      <div class="text">
+        <h3 class="description">Equilibrium #3429</h3>
+        <p class="paragraph">Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+      <div class="price">
+        <div class="eth"><img class="img" src="./images/icon-ethereum.svg" alt="">
+          <p>0.041ETH</p>
+        </div>
+          <div class="time"><img class="clock" src="./images/icon-clock.svg" alt="">
+            <p class="days">3 days left</p>
+          </div>
+      </div>
+      <div class="line"></div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <div class="profile">
+        <div class="pic-profile"><img class="pic" src="./images/image-avatar.png" alt=""></div>
+        
+        <h4 class="text-footer">Creation of <span class="name"> Jules Wyvern</span></h4>
+      </div>
+    </div>
+   </div>
+  </body>
 </html>
